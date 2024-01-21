@@ -1,4 +1,4 @@
-package com.jmtebar.applications.api.model;
+package com.jmtebar.applications.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

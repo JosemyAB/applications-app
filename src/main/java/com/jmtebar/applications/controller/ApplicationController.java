@@ -1,16 +1,21 @@
-package com.jmtebar.applications.api.controller;
+package com.jmtebar.applications.controller;
 
-import org.springframework.stereotype.Controller;
+import com.jmtebar.applications.company.CompanyRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ApplicationController {
 
+    @Autowired
+    private CompanyRepository companyRepository;
+
     // Return all the applications from the DB
     @GetMapping("/")
     public String getApplications() {
+
+
         return "All the applications";
     }
 

@@ -1,4 +1,4 @@
-package com.jmtebar.applications.api;
+package com.jmtebar.applications;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
