@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Company (
+    id INT(4) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30),
+    rating DECIMAL(3,1),
+    glassdoor_link VARCHAR(255)
+);
