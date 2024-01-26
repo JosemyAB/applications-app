@@ -1,0 +1,1 @@
+INSERT IGNORE INTO Company VALUES ('New Work', 4,5, "https://www.glassdoor.es/Resumen/Trabajar-en-New-Work-SE-EI_IE100328.12,23.htm");

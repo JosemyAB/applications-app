@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:8.2
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=applications-dev
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_USER=applications-dev
+      - MYSQL_PASSWORD=applications-dev
+    volumes:
+      - "./conf.d:/etc/mysql/conf.d:ro"
